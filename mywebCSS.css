@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    font-family: "Bree Serif";
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.date{
+    text-align: right;
+    margin-right: 8px;
+    margin-top: 80px;
+}
+
+.profile-image:hover {
+    scale: 1.05;
+}
+
+.nav{
+    font-weight: bolder;
+}
+
+.nav:hover{
+    color: red;
+    font-weight: bold;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: red;
+}
+
+.nav:active {
+    scale: 0.94;
+}
+
+.search-bar {
+    height: 30px;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    padding-top: 4px;
+    margin-top: 5px;
+
+}
+
+.search-icon:active {
+    height: 30px;
+    border-radius: 4px;
+    padding-top: 4px;
+    margin-top: 5px;
+}
+
+.search-bar:hover,
+.search-bar:focus {
+    border: 3px solid red;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline-style: none;
+}
+
+.search-icon {
+    margin: 0px 4px 6px 0px;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+
+.search-position {
+    position: absolute;
+    right: 2px;
+}
+main{
+    margin-top: 70px;
+}
+
+
+.marquee {
+    padding: 1vh;
+    font-style: italic;
+    background-color: yellow;
+    color: red;
+    font-family: "Bree Serif";
+}
+.card{
+    text-align: center;
+    padding: 8px;
+    border-radius: 5vh;
+    margin-top: 2vh;
+}
+.card:hover{
+    scale: 1.03;
+    background-color: rgb(237, 255, 249);
+}
+.card-heading{
+    color: crimson;
+    font-weight: bold;
+}
+.card-image{
+    height: 90%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para{
+    text-align: left;
+    color: rgb(127, 127, 127);
+    margin: 20px 0px 0px 20px;
+}
+
+.footer {
+    position: relative;
+    top: 100vh;
+    background-color: rgb(28, 50, 86);
+    border-radius: 3vh 3vh 0vh 0vh;
+
+}
+.contact-icon {
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin: 2vh 1vh;
+    background-color: white;
+}
+.contact-icon:hover{
+    scale: 1.05;
+
+}
