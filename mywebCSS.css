@@ -2,6 +2,8 @@
 
 .body {
     font-family: "Bree Serif";
+    margin: 0px;
+    padding: 0px;
 }
 
 .profile-image {
@@ -15,17 +17,20 @@
     margin-top: 80px;
 }
 
+
 .profile-image:hover {
     scale: 1.05;
 }
 
-.nav{
+
+
+.navl{
     font-weight: bolder;
 }
 
-.nav:hover{
+.navl:hover{
     color: red;
-    font-weight: bold;
+    padding-bottom: 4px;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
@@ -34,9 +39,11 @@
     border-color: red;
 }
 
-.nav:active {
+
+.navl:active {
     scale: 0.94;
 }
+
 
 .search-bar {
     height: 30px;
@@ -48,7 +55,6 @@
 }
 
 .search-icon:active {
-    height: 30px;
     border-radius: 4px;
     padding-top: 4px;
     margin-top: 5px;
@@ -56,7 +62,7 @@
 
 .search-bar:hover,
 .search-bar:focus {
-    border: 3px solid red;
+    border: 2px solid red;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
@@ -82,6 +88,7 @@ main{
 
 .marquee {
     padding: 1vh;
+    width: 100vw;
     font-style: italic;
     background-color: yellow;
     color: red;
@@ -91,7 +98,7 @@ main{
     text-align: center;
     padding: 8px;
     border-radius: 5vh;
-    margin-top: 2vh;
+    margin-top: 15px;
 }
 .card:hover{
     scale: 1.03;
@@ -114,10 +121,11 @@ main{
 }
 
 .footer {
-    position: relative;
-    top: 100vh;
+    
+    width: 100vw;
+    margin-top: 60vh;
     background-color: rgb(28, 50, 86);
-    border-radius: 3vh 3vh 0vh 0vh;
+    border-radius: 15px 15px 0px 0px;
 
 }
 .contact-icon {
