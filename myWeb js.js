@@ -10,13 +10,13 @@ let displayDate = document.getElementById("date");
 let searchLink = document.getElementById("searchLink");
 searchLink.onclick = () => {
     if (search.value !== "") {
-        let url = "https://google.com/search?q=" + search.value
+        let url = "https://google.com/search?q=" + search.value;
         searchLink.href = url;
         searchLink.target = "_blank";
         search.value = "";
     }
     else {
-        alert("Enter minimum one letters to search")
+        alert("Enter minimum one letter to search");
         
     }
 
@@ -28,7 +28,6 @@ function date() {
 
     let date = d.getDate();
     let month = d.getMonth()+1;
-    console.log(month)
     let year = d.getFullYear();
     let day = days[d.getDay()];
     let hours = d.getHours();
@@ -48,17 +47,17 @@ date();
 setInterval(() => {
     date();
 
-}, 10000)
+}, 10000);
 
 
 // cards
 
 pythonCard.onclick = function () {
-    alert("Sorry for Now, working on it.")
+    alert("working on it, wait for a while");
 }
 javaCard.onclick = function () {
-    alert("Sorry for Now, working on it.")
+    alert("working on it, wait for a while");
 }
 javaScriptCard.onclick = function () {
-    alert("Sorry for Now, working on it.")
+    alert("working on it, wait for a while");
 }
