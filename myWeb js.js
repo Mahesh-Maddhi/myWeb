@@ -50,14 +50,3 @@ setInterval(() => {
 }, 10000);
 
 
-// cards
-
-pythonCard.onclick = function () {
-    alert("working on it, wait for a while");
-}
-javaCard.onclick = function () {
-    alert("working on it, wait for a while");
-}
-javaScriptCard.onclick = function () {
-    alert("working on it, wait for a while");
-}
