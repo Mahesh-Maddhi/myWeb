@@ -17,6 +17,9 @@
 .video {
     border: 0.5vw solid rgb(255, 0, 0);
     border-radius: 15px;
+    background-image: linear-gradient(to top right ,
+    rgb(237, 32, 32),rgb(0, 0, 255));
+}
 }
 span{
     color: rgb(255, 0, 0);
