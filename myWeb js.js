@@ -17,6 +17,8 @@ searchLink.onclick = () => {
     }
     else {
         alert("Enter minimum one letter to search");
+        searchLink.href = "#search";
+        searchLink.target = ""
         
     }
 
