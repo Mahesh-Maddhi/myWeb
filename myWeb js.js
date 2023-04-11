@@ -7,6 +7,13 @@ let displayDate = document.getElementById("date");
 
 // search
 
+search.addEventListener("keydown",(event)=>{
+    if (event.key === "Enter"){
+        searchLink.click();
+    }
+}
+);
+
 let searchLink = document.getElementById("searchLink");
 searchLink.onclick = () => {
     if (search.value !== "") {
