@@ -12,9 +12,9 @@ search.addEventListener("keydown",(event)=>{
         searchLink.click();
     }
 }
-);
+)
 
-let searchLink = document.getElementById("searchLink");
+let searchLink = document.getElementById("searchLink");  
 searchLink.onclick = () => {
     if (search.value !== "") {
         let url = "https://google.com/search?q=" + search.value;
@@ -26,7 +26,6 @@ searchLink.onclick = () => {
         alert("Enter minimum one letter to search");
         searchLink.href = "#search";
         searchLink.target = ""
-        
     }
 
 }
@@ -57,5 +56,4 @@ setInterval(() => {
     date();
 
 }, 10000);
-
 
